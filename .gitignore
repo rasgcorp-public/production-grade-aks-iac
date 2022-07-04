@@ -60,3 +60,6 @@ terraform.rc
 
 # Ignore code-workspaces
 *.code-workspace
+
+#
+private_ssh_key

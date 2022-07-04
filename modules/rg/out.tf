@@ -5,3 +5,7 @@ output "rg_id" {
 output "rg_location" {
   value = azurerm_resource_group.poc_wso2_rg.location
 }
+
+output "rg_name" {
+  value = azurerm_resource_group.poc_wso2_rg.name
+}
